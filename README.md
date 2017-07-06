@@ -2,3 +2,4 @@
 
 ##### Anotações:
 - Não existe mobile, o que existe são dispositivos com características próprias.
+- VER VIDEO 1 DA AULA 2
