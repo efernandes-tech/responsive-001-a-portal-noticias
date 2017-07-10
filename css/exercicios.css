@@ -1,3 +1,4 @@
+/*A1*/
 .secao {
     float: left;
     width: 33.333%;
@@ -6,4 +7,32 @@
 .mini {
     float: left;
     width: 50%;
+}
+
+/*A2*/
+.container{
+    margin: 0 auto;
+    /* Definir um limite maximo ajuda pq e dificil manter o layout de 0 ate infinito. */
+    max-width: 1200px;
+}
+.logo,
+.secao {
+    padding: 0 1%;
+}
+
+/* Tecnica para evitar que as imgs quebrem o layout, e aumenten alem do seu tamanho maximo. */
+img {
+    max-width: 100%;
+}
+
+/* Adaptando o menu sem o uso de media queries. */
+.logo,
+.busca,
+.barra-nav,
+.menu-principal {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-principal li {
+    float: left;
 }
