@@ -1,7 +1,8 @@
 /*A1*/
 .secao {
-    float: left;
-    width: 33.333%;
+    /*float: left;*/
+    /*width: 33.333%;*/
+    width: 100%;
 }
 
 .mini {
@@ -56,5 +57,22 @@ header {
 @media (min-width: 1000px) {
     html {
         font-size: 1.25em;
+    }
+}
+
+/* Mobile-first - Reduz código. */
+.secao {
+    /*width: 100%;*/
+}
+
+@media (min-width: 600px) {
+    .secao {
+        width: 50%;
+        float: left;
+    }
+}
+@media (min-width: 1000px) {
+    .secao {
+        width: 33.333%;
     }
 }
