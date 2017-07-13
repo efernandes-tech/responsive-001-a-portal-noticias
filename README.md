@@ -8,5 +8,14 @@
 		<meta name="*viewport*" content="width=device-width">
 - Estratégia de desenvolvimento: desktop browser, emuladores, e debug remoto em dispositivos reais.
 	- Monte o seu device lab (dica para ios: ipod touch é mais parato).
+- Use o WEINRE para debug remoto em dispositivos genéricos (usa o nodejs).
+    - Instalar com o NPM:
+        npm install -g weinre
+    - Iniciar pelo terminal:
+        weinre
+    - Acesse o localhost indicado.
+    - Copie a tag <script> e cole no topo da pagina que vc deseja debugar.
+    - Acesse a pagina pelo dispositivo.
+    - No weinre acesse a pagina de debug.
 
 - FAZER EXERCICIO 2 DA AULA 4
