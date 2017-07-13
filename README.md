@@ -18,4 +18,4 @@
     - Acesse a pagina pelo dispositivo.
     - No weinre acesse a pagina de debug.
 
-- FAZER EXERCICIO 2 DA AULA 4
+- VER VIDEO 1 DA AULA 5
