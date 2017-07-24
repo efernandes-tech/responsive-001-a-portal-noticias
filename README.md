@@ -17,5 +17,7 @@
     - Copie a tag <script> e cole no topo da pagina que vc deseja debugar.
     - Acesse a pagina pelo dispositivo.
     - No weinre acesse a pagina de debug.
+- Devise pixel ratio é a razão entre o número de pixels físicos da tela e os pixels lógicos (ou pontos, ou device-independent pixels).
+- Compressive images é não bitolar pq muitas vezes uma imagem bastante otimizada é suficiente para várias resoluções e dispositivos.
 
-- VER VIDEO 1 DA AULA 6
+- VER VIDEO 1 DA AULA 7
