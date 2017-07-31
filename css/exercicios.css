@@ -133,7 +133,7 @@ header {
     border-bottom: .125em solid #000;
 
     vertical-align: middle;
-    margin: 0.5em;    
+    margin: 0.5em;
 }
 
 .menu-fechar {
@@ -148,3 +148,7 @@ header {
         left: 0;
         text-indent: 0;
     }
+
+.logo img {
+    width: 200px;
+}
