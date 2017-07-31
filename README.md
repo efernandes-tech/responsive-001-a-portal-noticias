@@ -17,7 +17,24 @@
     - Copie a tag <script> e cole no topo da pagina que vc deseja debugar.
     - Acesse a pagina pelo dispositivo.
     - No weinre acesse a pagina de debug.
-- Devise pixel ratio é a razão entre o número de pixels físicos da tela e os pixels lógicos (ou pontos, ou device-independent pixels).
-- Compressive images é não bitolar pq muitas vezes uma imagem bastante otimizada é suficiente para várias resoluções e dispositivos.
-
-- VER VIDEO 1 DA AULA 7
+- Devise pixel ratio: é a razão entre o número de pixels físicos da tela e os pixels lógicos (ou pontos, ou device-independent pixels).
+- Compressive images: é não bitolar pq muitas vezes uma imagem bastante otimizada é suficiente para várias resoluções e dispositivos.
+- Content parity: é considerada uma boa prática que o usuário, na versáo mobile de uma página, consiga fazer tudo aquilo que ele faz no desktop.
+- Não existe "contexto mobile"!
+    - Ofereça todo o conteúdo e todos os cenários para que o usuário possa optar pelo aparelho que ele quiser.
+- Priorização de conteúdo.
+- Mobile-first.
+    - Priorizamos a criação de sites próprios para smartphones e tablets e só depois pensamos em sua versão para desktop.
+- Touch-first.
+    - Os botões devem ter, em média, 50px (9mm).
+    - Sem hover.
+- Lições:
+    - Não tente detectar em qual navegador o usuário está.
+    - Pense em todas as possibilidades de uso. O usuário pode e deve ter a vontade de navegar como ele quiser.
+    - Saiba o que o usuário quer visualizar primeiro em sua home page. Se ele quiser instalar algum aplicativo, deixe-o navegar, mas não impeça o acesso ao site.
+        - Não obrigue seu usuário a fazer aquilo que muito provavelmente não quer. Ele deve ser livre para navegar.
+    - Preste atenção naquilo que é mais importante ser mostrado na página. Uma página que à primeira vista só mostra o menu de opções confunde o usuário.
+    - Mantenha o máximo de features em sua página. Não há razão para diminuir a quantidade de ferramentas para o usuário se elas não influenciam no resto do site.
+        - Não desabilite o zoom com:
+            <meta name="viewport" content="width=device-width, user-scalable=no">
+- O Futuro é mobile.
